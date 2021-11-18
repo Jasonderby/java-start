@@ -1,8 +1,8 @@
-int lengte = 190;
-int gewicht = 90;
-int bmi = 0 ;
+float lengte = 1.90;
+float gewicht = 90;
+float bmi = 0 ;
 
-bmi = gewicht/ lengte*lengte;
-bmi = str(bmi);
+bmi = gewicht/( lengte*lengte);
+
 
 println (bmi);
